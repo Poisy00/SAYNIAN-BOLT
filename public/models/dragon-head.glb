@@ -1,0 +1,2 @@
+// This file should be replaced with an actual GLB model.
+// For now, we're using a fallback THREE.js geometry in the DragonHead component.

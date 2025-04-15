@@ -1,0 +1,11 @@
+.wheel-container {
+  background: url('../assets/parchment-texture.jpg');
+}
+
+.wheel-pointer {
+  background: url('../assets/chinese-pointer.png');
+}
+
+.result-display {
+  background: url('../assets/scroll-texture.png');
+}

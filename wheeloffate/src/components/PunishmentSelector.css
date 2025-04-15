@@ -1,0 +1,39 @@
+.selector-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+.bamboo-tube {
+  position: relative;
+  width: 120px;
+  height: 400px;
+  background: linear-gradient(to right, #8B4513, #A0522D, #8B4513);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+.bamboo-stick {
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  left: 10px;
+  background: linear-gradient(to right, #F5DEB3, #D2B48C);
+  border-radius: 5px;
+  border: 1px solid #8B4513;
+  transition: all 0.5s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bamboo-stick.selected {
+  transform: translateY(180px) !important;
+  background: linear-gradient(to right, #D4AF37, #F5DEB3);
+  box-shadow: 0 0 20px gold;
+  z-index: 10;
+}
+
+/* ... additional styles for button and result display ... */
