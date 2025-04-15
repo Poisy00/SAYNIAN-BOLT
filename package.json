@@ -8,7 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "bun-build": "bun run build"
+    "install": "npm install",
+    "bun-build": "npm run build"
   },
   "dependencies": {
     "@react-spring/web": "^9.7.3",
